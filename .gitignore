@@ -1,0 +1,8 @@
+node_modules/
+.wrangler/
+.dev.vars
+*.local
+.DS_Store
+# non committare MAI le credenziali del service account
+*service-account*.json
+*.key
