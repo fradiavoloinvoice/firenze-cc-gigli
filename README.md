@@ -4,7 +4,7 @@ Landing page per il punto vendita Fradiavolo al **primo piano del Centro Commerc
 (Via San Quirico 165, Campi Bisenzio – FI).
 
 - Offerta **20% di sconto** in alto con form di registrazione (nome, cognome, email)
-- Dopo l'invio mostra il **codice sconto** (`FIRENZE20`) da esibire alla cassa
+- Dopo l'invio mostra il **codice sconto** (`FRNHpg`) da esibire alla cassa
 - Le lead vengono inviate a un **webhook Make** (nessun backend da gestire)
 - Sezioni: racconto Fradiavolo (tradizionali/diavole/pop, 5 impasti, paste/insalate/secondi/fritti),
   riconoscimento **50 Top Pizza**, info punto vendita + mappa
@@ -32,7 +32,7 @@ Design replicato dalla landing di Roma: colori Fradiavolo, font Typekit `roc-gro
      "nome": "Mario",
      "cognome": "Rossi",
      "email": "mario@example.com",
-     "codice": "FIRENZE20",
+     "codice": "FRNHpg",
      "fonte": "Firenze I Gigli",
      "timestamp": "2026-06-16T12:34:56.000Z"
    }
@@ -66,5 +66,5 @@ Test locale: apri direttamente `index.html` nel browser, oppure `npx serve .`.
 
 - `noindex,nofollow`: pagina promozionale non destinata all'indicizzazione.
 - Immagini ottimizzate (lato max ~1100px, JPEG) e incorporate in base64. `index.html` ≈ 1,5 MB.
-- Codice sconto attuale: **fisso** `FIRENZE20`. Per codici univoci/monouso serve logica aggiuntiva.
+- Codice sconto attuale: **fisso** `FRNHpg`. Per codici univoci/monouso serve logica aggiuntiva.
 - Riconoscimento mostrato: logo **50 Top Pizza** (50 Top World Artisan Pizza Chains 2025, #22).
